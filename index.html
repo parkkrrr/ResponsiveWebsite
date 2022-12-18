@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Babu Banarasi Das</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">About</a></li>
+					<li><a href="">Schools</a></li>
+					<li><a href="">Academics</a></li>
+					<li><a href="">Admissions</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+		<div class="text-box">
+			<h1>Considering Best University in Lucknow</h1>
+			<p>We not only make technocrats at BBD, we churn out citizens of the world, <br>perfect in all respect, be in leadership, competence, <br>confidence, communication, moral or knowledge.</p>
+			<a href="" class="visit-us">Visit us to know more</a>
+		</div>
+	</section>
+
+<!----------------Next Section--------------->
+
+	<section class="course">
+		<h1>Our Featured Courses</h1>
+
+		<div class="row">
+			<div class="course-col">
+				<h3>BCA</h3>
+				<p>The BCA course is a full time three years Bachelor's Degree in Computer Application is to provide young men and women with the required knowledge and necessary skills to get rewarding careers into the changing world of information technology.</p>		
+			</div>
+			<div class="course-col">
+				<h3>BCA</h3>
+				<p>The BCA course is a full time three years Bachelor's Degree in Computer Application is to provide young men and women with the required knowledge and necessary skills to get rewarding careers into the changing world of information technology.</p>		
+			</div>
+			<div class="course-col">
+				<h3>BCA</h3>
+				<p>The BCA course is a full time three years Bachelor's Degree in Computer Application is to provide young men and women with the required knowledge and necessary skills to get rewarding careers into the changing world of information technology.</p>							
+			</div>
+		</div>
+	</section>
+
+	<!-- ---------Javascript for toggle menu--------- -->
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right ="-200px";
+	}
+
+</script>
+
+
+</body>
+</html>
